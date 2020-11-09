@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/irmajoanne.github.io/static/css/main.d76e3c5f.chunk.css",
+    "main.js": "/irmajoanne.github.io/static/js/main.7e03123c.chunk.js",
+    "main.js.map": "/irmajoanne.github.io/static/js/main.7e03123c.chunk.js.map",
+    "runtime-main.js": "/irmajoanne.github.io/static/js/runtime-main.7fde156a.js",
+    "runtime-main.js.map": "/irmajoanne.github.io/static/js/runtime-main.7fde156a.js.map",
+    "static/css/2.51270f71.chunk.css": "/irmajoanne.github.io/static/css/2.51270f71.chunk.css",
+    "static/js/2.cb7aa55f.chunk.js": "/irmajoanne.github.io/static/js/2.cb7aa55f.chunk.js",
+    "static/js/2.cb7aa55f.chunk.js.map": "/irmajoanne.github.io/static/js/2.cb7aa55f.chunk.js.map",
+    "index.html": "/irmajoanne.github.io/index.html",
+    "precache-manifest.84fd3684b00abd5f30ec1001f812554c.js": "/irmajoanne.github.io/precache-manifest.84fd3684b00abd5f30ec1001f812554c.js",
+    "service-worker.js": "/irmajoanne.github.io/service-worker.js",
+    "static/css/2.51270f71.chunk.css.map": "/irmajoanne.github.io/static/css/2.51270f71.chunk.css.map",
+    "static/css/main.d76e3c5f.chunk.css.map": "/irmajoanne.github.io/static/css/main.d76e3c5f.chunk.css.map",
+    "static/js/2.cb7aa55f.chunk.js.LICENSE.txt": "/irmajoanne.github.io/static/js/2.cb7aa55f.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/irmajoanne.github.io/static/media/Voice_in_my_head.6b7e9879.otf",
+    "static/media/about.png": "/irmajoanne.github.io/static/media/about.67cef840.png",
+    "static/media/black.jpg": "/irmajoanne.github.io/static/media/black.7a764bb4.jpg",
+    "static/media/home.png": "/irmajoanne.github.io/static/media/home.94ae3059.png",
+    "static/media/instagram.0bb072f2.svg": "/irmajoanne.github.io/static/media/instagram.0bb072f2.svg",
+    "static/media/mail.74707efa.svg": "/irmajoanne.github.io/static/media/mail.74707efa.svg",
+    "static/media/menu.15054092.svg": "/irmajoanne.github.io/static/media/menu.15054092.svg",
+    "static/media/research.png": "/irmajoanne.github.io/static/media/research.4e86c363.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7fde156a.js",
+    "static/css/2.51270f71.chunk.css",
+    "static/js/2.cb7aa55f.chunk.js",
+    "static/css/main.d76e3c5f.chunk.css",
+    "static/js/main.7e03123c.chunk.js"
+  ]
+}
