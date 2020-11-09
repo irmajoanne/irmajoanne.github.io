@@ -8,10 +8,10 @@ import { Route, BrowserRouter as Router } from "react-router-dom";
 import { createBrowserHistory } from "history";
 
 const client = new ApolloClient({
-  uri: 'https://graphql.contentful.com/content/v1/spaces/lh1z4hbvnhdl',
+  uri: process.env.REACT_APP_API_URL,
   cache: new InMemoryCache(),
   headers: {
-    'Authorization': `Bearer KtwZ5ExVEUXipPqI74DsdMsYs9YMtZL2xrDCmWKOzCY`
+    'Authorization': process.env.REACT_APP_API_KEY
   }
 });
 
