@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/irmajoanne.github.io/static/css/main.d76e3c5f.chunk.css",
-    "main.js": "/irmajoanne.github.io/static/js/main.7e03123c.chunk.js",
-    "main.js.map": "/irmajoanne.github.io/static/js/main.7e03123c.chunk.js.map",
+    "main.js": "/irmajoanne.github.io/static/js/main.6bdd69b8.chunk.js",
+    "main.js.map": "/irmajoanne.github.io/static/js/main.6bdd69b8.chunk.js.map",
     "runtime-main.js": "/irmajoanne.github.io/static/js/runtime-main.7fde156a.js",
     "runtime-main.js.map": "/irmajoanne.github.io/static/js/runtime-main.7fde156a.js.map",
     "static/css/2.51270f71.chunk.css": "/irmajoanne.github.io/static/css/2.51270f71.chunk.css",
-    "static/js/2.cb7aa55f.chunk.js": "/irmajoanne.github.io/static/js/2.cb7aa55f.chunk.js",
-    "static/js/2.cb7aa55f.chunk.js.map": "/irmajoanne.github.io/static/js/2.cb7aa55f.chunk.js.map",
+    "static/js/2.35a59801.chunk.js": "/irmajoanne.github.io/static/js/2.35a59801.chunk.js",
+    "static/js/2.35a59801.chunk.js.map": "/irmajoanne.github.io/static/js/2.35a59801.chunk.js.map",
     "index.html": "/irmajoanne.github.io/index.html",
-    "precache-manifest.84fd3684b00abd5f30ec1001f812554c.js": "/irmajoanne.github.io/precache-manifest.84fd3684b00abd5f30ec1001f812554c.js",
+    "precache-manifest.470c69a6902a241ebf0a5138fd4b82c4.js": "/irmajoanne.github.io/precache-manifest.470c69a6902a241ebf0a5138fd4b82c4.js",
     "service-worker.js": "/irmajoanne.github.io/service-worker.js",
     "static/css/2.51270f71.chunk.css.map": "/irmajoanne.github.io/static/css/2.51270f71.chunk.css.map",
     "static/css/main.d76e3c5f.chunk.css.map": "/irmajoanne.github.io/static/css/main.d76e3c5f.chunk.css.map",
-    "static/js/2.cb7aa55f.chunk.js.LICENSE.txt": "/irmajoanne.github.io/static/js/2.cb7aa55f.chunk.js.LICENSE.txt",
+    "static/js/2.35a59801.chunk.js.LICENSE.txt": "/irmajoanne.github.io/static/js/2.35a59801.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/irmajoanne.github.io/static/media/Voice_in_my_head.6b7e9879.otf",
     "static/media/about.png": "/irmajoanne.github.io/static/media/about.67cef840.png",
     "static/media/black.jpg": "/irmajoanne.github.io/static/media/black.7a764bb4.jpg",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.7fde156a.js",
     "static/css/2.51270f71.chunk.css",
-    "static/js/2.cb7aa55f.chunk.js",
+    "static/js/2.35a59801.chunk.js",
     "static/css/main.d76e3c5f.chunk.css",
-    "static/js/main.7e03123c.chunk.js"
+    "static/js/main.6bdd69b8.chunk.js"
   ]
 }
