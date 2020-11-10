@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
-import { Route, BrowserRouter as Router } from "react-router-dom";
+import { Route, Router } from "react-router-dom";
 import { createBrowserHistory } from "history";
 
 const client = new ApolloClient({
