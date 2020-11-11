@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "356323db8fa66ec790d69217fb8b1d7b",
+    "revision": "b529c828311ef53510474972e5ab85af",
     "url": "/irmajoanne.github.io/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/irmajoanne.github.io/static/css/2.51270f71.chunk.css"
   },
   {
-    "revision": "3e8700de35c41bcaefbd",
-    "url": "/irmajoanne.github.io/static/css/main.ed1952a3.chunk.css"
+    "revision": "3b2ff2ab02bd66c19514",
+    "url": "/irmajoanne.github.io/static/css/main.d42c2455.chunk.css"
   },
   {
     "revision": "f4bc5ecf6019030e4d82",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/irmajoanne.github.io/static/js/2.83cc6db5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3e8700de35c41bcaefbd",
-    "url": "/irmajoanne.github.io/static/js/main.dca1302c.chunk.js"
+    "revision": "3b2ff2ab02bd66c19514",
+    "url": "/irmajoanne.github.io/static/js/main.818bddae.chunk.js"
   },
   {
     "revision": "98e3c1e93f18f19a02f1",
