@@ -121,6 +121,10 @@ body {
   z-index: 10;
   overflow: hidden;
 
+  &.extend {
+    width: 255px;
+  }
+
   .link {
     color: $secondary-color;
     font-family: 'DIN-Bold';

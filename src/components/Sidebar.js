@@ -17,7 +17,7 @@ const slideInOut = {
 
 const Sidebar = props => {
   const location = useLocation();
-  const { toggleSideBar } = props;
+  const { toggleSideBar, lang } = props;
   const ref = useRef();
 
   const handleClickOutside = e => {
@@ -33,11 +33,15 @@ const Sidebar = props => {
   }, []);
 
   return (
-    <motion.div ref={ref} key="Sidebar" className="sidebar" {...slideInOut}>
+    <motion.div ref={ref}
+      key="Sidebar"
+      className={lang === 'en-US' ? 'sidebar' : 'sidebar extend'} 
+      {...slideInOut}
+    >
       <Link onClick={toggleSideBar} className="link" to={{pathname: '/', state: { prevPath: location.pathname }}}>HOME</Link>
-      <Link onClick={toggleSideBar} className="link" to={{pathname: '/about', state: { prevPath: location.pathname }}}>ABOUT</Link>
-      <Link onClick={toggleSideBar} className="link" to={{pathname: '/research', state: { prevPath: location.pathname }}}>RESEARCH</Link>
-      <Link onClick={toggleSideBar} className="link" to={{pathname: '/projects', state: { prevPath: location.pathname }}}>PROJECTS</Link>
+      <Link onClick={toggleSideBar} className="link" to={{pathname: '/about', state: { prevPath: location.pathname }}}>{lang === 'en-US' ? 'ABOUT' : 'OVER'}</Link>
+      <Link onClick={toggleSideBar} className="link" to={{pathname: '/research', state: { prevPath: location.pathname }}}>{lang === 'en-US' ? 'RESEARCH' : 'ONDERZOEK'}</Link>
+      <Link onClick={toggleSideBar} className="link" to={{pathname: '/projects', state: { prevPath: location.pathname }}}>{lang === 'en-US' ? 'PROJECTS' : 'PROJECTEN'}</Link>
     </motion.div>
   );
 }

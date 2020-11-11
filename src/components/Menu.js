@@ -4,6 +4,7 @@ import { AnimatePresence } from "framer-motion";
 import { ReactComponent as MenuIcon } from '../utils/icons/menu.svg';
 
 const Menu = props => {
+  const { lang } = props;
   const [isVisible, setIsVisible] = useState(false);
   const toggleSideBar = () => setIsVisible(!isVisible);
 
@@ -13,7 +14,7 @@ const Menu = props => {
         <MenuIcon />
       </div>
       <AnimatePresence>
-        {isVisible && <Sidebar toggleSideBar={toggleSideBar} />}
+        {isVisible && <Sidebar lang={lang} toggleSideBar={toggleSideBar} />}
       </AnimatePresence>
     </div>
   );
