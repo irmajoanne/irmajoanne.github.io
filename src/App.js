@@ -91,7 +91,7 @@ const Content = props => {
     state.to.current = location.pathname;
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location]);
-
+  
   return (
     <>
       <Navbar lang={lang} setLang={setLang} />
@@ -102,6 +102,7 @@ const Content = props => {
           <Route exact path="/projects" component={() => <Projects lang={lang} setProjects={setProjects} />} />
           <Route exact path="/project/:id" component={() => (
             <FetchProject
+              key={lang}
               lang={lang}
               setProject={setProject}
               projects={projects}

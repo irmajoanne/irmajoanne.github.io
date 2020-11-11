@@ -52,7 +52,7 @@ const FetchProject = props => {
         projects={projects}
       />
     )
-  } else if (loading) {
+  } else if (isResponsive && loading) {
     return <CircularLoader />;
   } else {
     return null;

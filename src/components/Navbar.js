@@ -1,12 +1,12 @@
 import React from 'react';
 import Menu from './Menu';
 import {ReactComponent as MailIcon} from '../utils/icons/mail.svg'
-import {ReactComponent as InstagramIcon} from '../utils/icons/instagram.svg'
+import {ReactComponent as InstagramIcon} from '../utils/icons/instagram.svg';
 
 const Navbar = props => {
-  const { lang, setLang } = props
+  const { lang, setLang } = props;
   const switchLang = () => {
-    lang === 'en-US' ? setLang('nl') : setLang('en-US')
+    lang === 'en-US' ? setLang('nl') : setLang('en-US');
   }
 
   return (
