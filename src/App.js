@@ -95,19 +95,18 @@ const Content = props => {
   return (
     <>
       <Navbar lang={lang} setLang={setLang} />
-      <AnimatePresence exitBeforeEnter>
-        <Switch key={`${location.pathname}-${lang}`}>
+      <AnimatePresence key={lang} exitBeforeEnter>
+        <Switch key={location.pathname}>
           <Route exact path="/about" component={() => <About lang={lang} />} />
           <Route exact path="/research" component={() => <Research lang={lang} />} />
           <Route exact path="/projects" component={() => <Projects lang={lang} setProjects={setProjects} />} />
           <Route exact path="/project/:id" component={() => (
             <FetchProject
-              key={lang}
               lang={lang}
               setProject={setProject}
               projects={projects}
             />
-            )}
+          )}
           />
         </Switch>
       </AnimatePresence>
