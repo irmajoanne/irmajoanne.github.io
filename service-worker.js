@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/irmajoanne.github.io/precache-manifest.8f5b8bb0b5478bf551f96ba2f7294071.js"
+  "/irmajoanne.github.io/precache-manifest.573faeed084c793e9284f2c804080e6f.js"
 );
 
 self.addEventListener('message', (event) => {
