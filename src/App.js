@@ -1,6 +1,7 @@
 import * as THREE from "three";
 import React, { Suspense, useRef, useState, useEffect } from 'react';
 import {
+  HashRouter,
   Switch,
   Route,
   useLocation
@@ -91,7 +92,7 @@ const Content = props => {
     state.to.current = location.pathname;
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location]);
-  
+
   return (
     <>
       <Navbar lang={lang} setLang={setLang} />
@@ -162,33 +163,35 @@ const App = () => {
   }
 
   return (
-    <div
-      className="App"
-      onWheel={onWheel}
-    >
-      <Cursor />
-      <Content
-        lang={lang}
-        setLang={setLang}
-        setProject={setProject}
-        showHomeText={showHomeText}
-        setShowHomeText={setShowHomeText}
-        projects={projects}
-        setProjects={setProjects}
-      />
-      <Canvas className="canvas" concurrent pixelRatio={1} camera={{ zoom: state.zoom, position: [0, 0, 500] }}>
-        <Scene
-          project={project}
-          showHomeText={showHomeText}
-          setPageSize={setPageSize}
-          projects={projects}
+    <HashRouter basename="/">
+      <div
+        className="App"
+        onWheel={onWheel}
+      >
+        <Cursor />
+        <Content
           lang={lang}
+          setLang={setLang}
+          setProject={setProject}
+          showHomeText={showHomeText}
+          setShowHomeText={setShowHomeText}
+          projects={projects}
+          setProjects={setProjects}
         />
-      </Canvas>
-      <div className="scrollArea" ref={scrollArea}>
-        <div style={{ height: `${pageSize * 100}vh` }} />
+        <Canvas className="canvas" concurrent pixelRatio={1} camera={{ zoom: state.zoom, position: [0, 0, 500] }}>
+          <Scene
+            project={project}
+            showHomeText={showHomeText}
+            setPageSize={setPageSize}
+            projects={projects}
+            lang={lang}
+          />
+        </Canvas>
+        <div className="scrollArea" ref={scrollArea}>
+          <div style={{ height: `${pageSize * 100}vh` }} />
+        </div>
       </div>
-    </div>
+    </HashRouter>
   );
 }
 
