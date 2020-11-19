@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
-import { Route, BrowserRouter as Router } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 import { createBrowserHistory } from "history";
 
 const client = new ApolloClient({
@@ -18,14 +18,14 @@ const client = new ApolloClient({
 ReactDOM.render(
   <React.StrictMode>
     <ApolloProvider client={client}>
-      <Router history={createBrowserHistory()}>
+      <HashRouter basename="/" history={createBrowserHistory()}>
         <Route
           component={({ history }) => {
             window.appHistory = history;
             return <App />;
           }}
         />
-      </Router>
+      </HashRouter>
     </ApolloProvider>
   </React.StrictMode>,
   document.getElementById('root')

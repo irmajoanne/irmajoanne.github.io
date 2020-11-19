@@ -163,7 +163,6 @@ const App = () => {
   }
 
   return (
-    <HashRouter basename="/">
       <div
         className="App"
         onWheel={onWheel}
@@ -191,7 +190,6 @@ const App = () => {
           <div style={{ height: `${pageSize * 100}vh` }} />
         </div>
       </div>
-    </HashRouter>
   );
 }
 
