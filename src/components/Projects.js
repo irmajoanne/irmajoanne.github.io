@@ -46,7 +46,7 @@ const thumbnailAnimation = {
 }
 
 const Thumbnail = props => {
-  const { lang, id, title, src, imageLoaded } = props;
+  const { id, title, src, imageLoaded } = props;
   return (
     <motion.div key={id} variants={thumbnailAnimation}>
       <Link to={`/project/${id}`} className="thumbnail">

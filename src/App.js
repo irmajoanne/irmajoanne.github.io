@@ -1,7 +1,6 @@
 import * as THREE from "three";
 import React, { Suspense, useRef, useState, useEffect } from 'react';
 import {
-  HashRouter,
   Switch,
   Route,
   useLocation
